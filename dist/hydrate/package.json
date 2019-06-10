@@ -1,0 +1,5 @@
+{
+  "name": "sandbox-package-pages/hydrate",
+  "main": "index.js",
+  "types": "index.d.ts"
+}

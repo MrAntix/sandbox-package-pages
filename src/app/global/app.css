@@ -1,0 +1,44 @@
+ @import url("./component.css");
+
+ :root {
+     --unit: 12px;
+     --primary-color: #444;
+     --primary-color-alt: #fff;
+     --color: #555;
+     --background-color: #eee;
+     --font-family: 'Courier New', Courier, monospace;
+
+     --border-width: 12px;
+     --border-color: #fff;
+
+     --input-appearance: none;
+     --input-color: #111;
+     --input-background-color: #fcfcfc;
+     --input-background-color-focus: #fff;
+     --input-border-color: var(--border-color);
+     --input-border: var(--border-width) solid var(--input-border-color);
+     --input-padding: calc(.5 * var(--unit));
+
+     --button-appearance: none;
+     --button-color: var(--primary-color-alt);
+     --button-background-color: var(--primary-color);
+     --button-border-color: var(--border-color);
+     --button-border: var(--border-width) solid var(--button-border-color);
+     --button-padding: calc(.5 * var(--unit)) var(--unit);
+ }
+
+ body {
+     background-color: var(--background-color);
+     color: var(--color);
+     font-size: 16px;
+     font-family: var(--font-family);
+ }
+
+
+ app-root {
+     display: block;
+     width: 85%;
+     min-width: 300px;
+     max-width: 800px;
+     margin: 0 auto;
+ }

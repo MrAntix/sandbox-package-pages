@@ -1,0 +1,44 @@
+
+a,
+a:visited {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+input,
+textarea,
+select {
+    appearance: var(--input-appearance);
+    border: var(--input-border);
+    background-color: var(--input-background-color);
+    color: var(--input-color);
+    padding: var(--input-padding);
+}
+
+input:focus {
+    background-color: #fff;
+}
+
+button {
+    appearance: var(--button-appearance);
+    border: var(--button-border);
+    background-color: var(--button-background-color);
+    color: var(--button-color);
+    padding: var(--button-padding);
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: var(--font-family);
+    font-size: inherit;
+}
+
+a,
+input,
+button,
+textarea,
+select {
+    outline-color: var(--primary-color);
+}

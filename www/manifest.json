@@ -1,0 +1,13 @@
+{
+  "name": "Package Pages",
+  "short_name": "Package Pages",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#eeeeee",
+  "theme_color": "#336699"
+}

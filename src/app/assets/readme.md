@@ -1,0 +1,1 @@
+icon-512x512 is built from the svg in postbuild step - see https://github.com/ionic-team/stencil/issues/1608

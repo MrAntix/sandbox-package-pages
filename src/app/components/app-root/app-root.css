@@ -1,0 +1,54 @@
+@import url("../../global/component.css");
+
+header {
+    border-bottom: var(--border-width) solid var(--border-color);
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: calc(1.2 * var(--font-size));
+    padding: var(--unit) 0;
+    margin: 0;
+}
+
+h1:after {
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-image: url(/assets/icon.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: .9em;
+    animation: wiggle infinite 10s ease-in-out;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+@keyframes wiggle {
+    95% {
+        transform: rotate(0deg);
+    }
+
+    96% {
+        transform: rotate(20deg);
+    }
+
+    97% {
+        transform: rotate(-20deg);
+    }
+
+    98% {
+        transform: rotate(10deg);
+    }
+
+    99% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
